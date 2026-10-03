@@ -17,8 +17,8 @@ I explore how models detect objects and follow them through a scene. These proje
 
 | Project | What is inside |
 | --- | --- |
-| [Object detection using Single Shot Detector](https://github.com/somilsin/Computer-Vision/tree/main/Object-Detection-using-SSD) | Object detection with a TensorFlow text graph and COCO class labels. |
-| [Object tracking using You Only Look Once version 4](https://github.com/somilsin/Computer-Vision/tree/main/Object-Tracking-with-Boundary-edge-detection-using-yolov4) | Image and video detection with object counts and attention to targets near frame boundaries. |
+| [Object detection using SSD](https://github.com/somilsin/Computer-Vision/tree/main/Object-Detection-using-SSD) | Object detection with a TensorFlow text graph and COCO class labels. |
+| [Object tracking using YOLO v4](https://github.com/somilsin/Computer-Vision/tree/main/Object-Tracking-with-Boundary-edge-detection-using-yolov4) | Image and video detection with object counts and attention to targets near frame boundaries. |
 | [Indian Automatic Number Plate Recognition](https://github.com/somilsin/Computer-Vision/tree/main/Indian-ANPR) | Number plate text extraction with a database and a browser interface. |
 
 ## 📝 My notes
