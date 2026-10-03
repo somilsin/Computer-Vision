@@ -1,6 +1,8 @@
+[← Computer Vision](../README.md)
+
 # 🇮🇳 Indian-ANPR (Automatic Number Plate Recognition)  
 
-**Maintained by [Somil Singh](https://github.com/skywalkerrre) — Software Engineer & AI Enthusiast**
+**Maintained by [Somil Singh](https://github.com/somilsin) — Software Engineer & AI Enthusiast**
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/) [![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?logo=opencv)](https://opencv.org/) [![MySQL](https://img.shields.io/badge/Database-MySQL-orange?logo=mysql)](https://www.mysql.com/) [![Twilio](https://img.shields.io/badge/Notifications-Twilio-red?logo=twilio)](https://www.twilio.com/) [![AI](https://img.shields.io/badge/AI-Computer%20Vision-purple?logo=ai)]() [![Research](https://img.shields.io/badge/Focus-Research--Driven-yellow)]()  
 
@@ -54,3 +56,9 @@ The project not only strengthened my expertise in AI frameworks and Python devel
 - 🚦 Expand to **traffic violation detection** (overspeeding, red-light jumping, etc.).  
 
 ---
+
+## My local configuration
+
+I run the Python and Node.js code from this project folder. My database password and Twilio settings come from environment variables. I set `MYSQL_PASSWORD`, `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_FROM_NUMBER` and `TWILIO_TO_NUMBER` locally before starting the relevant program. I keep the actual values out of the repository.
+
+The Python program can send text messages when executed. I configure the recipient and database for the environment I intend to use before running it.
