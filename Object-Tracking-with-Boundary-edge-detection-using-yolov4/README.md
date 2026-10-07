@@ -26,11 +26,21 @@
 
 <br>
 
-> 📄 **Published in IJISRT, August 2023:** [Object Detection Classification and Tracking of Everyday Common Objects](https://www.ijisrt.com/object-detection-classification-and-tracking-of-everyday-common-objects)
->
-> Shiwansh Bhargav and Somil Singh. International Journal of Innovative Science and Research Technology, Volume 8, Issue 8, pp. 2188 to 2192, ISSN 2456-2165
->
-> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8330641.svg)](https://doi.org/10.5281/zenodo.8330641) · [Full paper PDF](https://www.ijisrt.com/assets/upload/files/IJISRT23AUG1545.pdf)
+<div align="center">
+
+📄 **Published in IJISRT · August 2023**
+
+### [Object Detection Classification and Tracking of Everyday Common Objects](https://www.ijisrt.com/object-detection-classification-and-tracking-of-everyday-common-objects)
+
+Shiwansh Bhargav · Somil Singh
+
+*International Journal of Innovative Science and Research Technology · Vol. 8, Issue 8 · pp. 2188 to 2192 · ISSN 2456-2165*
+
+[![Journal](https://img.shields.io/badge/IJISRT-Aug%202023-1f6feb)](https://www.ijisrt.com/object-detection-classification-and-tracking-of-everyday-common-objects) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8330641.svg)](https://doi.org/10.5281/zenodo.8330641) [![Paper PDF](https://img.shields.io/badge/Paper-PDF-b31b1b)](https://www.ijisrt.com/assets/upload/files/IJISRT23AUG1545.pdf)
+
+</div>
+
+---
 
 ## 📖 About This Repository
 
@@ -118,6 +128,12 @@ I retain the source context and any existing licenses with the project. The cate
 <br>
 
 <div align="center">
+
+## Citation
+
+If you use this work, please cite:
+
+Bhargav, S., & Singh, S. (2023). Object Detection Classification and Tracking of Everyday Common Objects. International Journal of Innovative Science and Research Technology, 8(8), 2188 to 2192. https://doi.org/10.5281/zenodo.8330641
 
 ### Get In Touch
 
