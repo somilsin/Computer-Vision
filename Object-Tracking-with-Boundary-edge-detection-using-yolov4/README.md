@@ -26,11 +26,11 @@
 
 <br>
 
-> 📄 **Published in IJISRT, August 2023:** [Object Detection, Classification and Tracking of Everyday Common Objects](https://zenodo.org/records/8330641)
+> 📄 **Published in IJISRT, August 2023:** [Object Detection Classification and Tracking of Everyday Common Objects](https://www.ijisrt.com/object-detection-classification-and-tracking-of-everyday-common-objects)
 >
-> International Journal of Innovative Science and Research Technology, Volume 8, Issue 8, pp. 2188 to 2192, ISSN 2456-2165
+> Shiwansh Bhargav and Somil Singh. International Journal of Innovative Science and Research Technology, Volume 8, Issue 8, pp. 2188 to 2192, ISSN 2456-2165
 >
-> [![IJISRT]([https://zenodo.org/badge/DOI/10.5281/zenodo.8330641.svg)](https://doi.org/10.5281/zenodo.8330641](https://www.ijisrt.com/object-detection-classification-and-tracking-of-everyday-common-objects))
+> [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8330641.svg)](https://doi.org/10.5281/zenodo.8330641) · [Full paper PDF](https://www.ijisrt.com/assets/upload/files/IJISRT23AUG1545.pdf)
 
 ## 📖 About This Repository
 
