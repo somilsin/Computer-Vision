@@ -26,6 +26,12 @@
 
 <br>
 
+> 📄 **Published in IJISRT, August 2023:** [Object Detection, Classification and Tracking of Everyday Common Objects](https://zenodo.org/records/8330641)
+>
+> International Journal of Innovative Science and Research Technology, Volume 8, Issue 8, pp. 2188 to 2192, ISSN 2456-2165
+>
+> [![IJISRT]([https://zenodo.org/badge/DOI/10.5281/zenodo.8330641.svg)](https://doi.org/10.5281/zenodo.8330641](https://www.ijisrt.com/object-detection-classification-and-tracking-of-everyday-common-objects))
+
 ## 📖 About This Repository
 
 ---
