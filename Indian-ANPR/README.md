@@ -1,7 +1,8 @@
 <div align="center">
 
-<h1>🚗 Indian Automatic Number Plate Recognition</h1>
-<h3><code>From plate text to registration checks</code></h3>
+# 🚗 Indian Automatic Number Plate Recognition
+
+### From plate text to registration checks
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF&center=true&vCenter=true&width=900&lines=From%20plate%20text%20to%20registration%20checks;Learn+it.+Build+it.+Explain+it." alt="From plate text to registration checks" />
 
@@ -25,18 +26,32 @@
 
 </div>
 
-<br>
+---
+
+## 📖 About This Repository
 
 I built this project to connect number plate recognition with vehicle registration records. It reads a plate from an image, looks up the registration in MySQL and can send an SMS alert through Twilio.
 
-## 🔎 The pipeline
+---
+
+## 🚀 Key Implementations
+
+* OpenCV and optical character recognition pipeline
+* Database checks and browser interface
+* Text message integration with environment based credentials
+
+---
+
+## 🎓 Project Guide
+
+### The pipeline
 
 * OpenCV processes the image and pytesseract reads the plate text.
 * MySQL stores vehicle and owner records for the registration check.
 * The browser interface provides the user and admin pages.
 * Twilio handles the configured text alerts.
 
-## 📂 Where to start
+### Files
 
 | File | What it's for |
 | :--- | :--- |
@@ -46,7 +61,32 @@ I built this project to connect number plate recognition with vehicle registrati
 | [tables.txt](tables.txt) | Database table definitions. |
 | [HTML/](HTML/) | User and admin pages. |
 
-## ⚙️ Configuration
+### What I used it to explore
+
+Connecting image processing, a registration database and SMS notifications in one project.
+
+### Ideas to try
+
+The earlier project notes include trying YOLO or CRNN for plate recognition, adding an API and building a reporting dashboard. Those are extensions to explore.
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,nodejs,mysql,html,css,js&theme=dark" alt="Python, Node.js, MySQL, HTML, CSS, JavaScript" />
+</p>
+
+`Python` · `Node.js` · `MySQL` · `HTML` · `CSS` · `JavaScript`
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+git clone https://github.com/somilsin/Computer-Vision.git
+cd Computer-Vision/Indian-ANPR
+```
 
 Set these environment variables locally before running the relevant program:
 
@@ -57,3 +97,27 @@ Set these environment variables locally before running the relevant program:
 * `TWILIO_TO_NUMBER`
 
 The Python program can send SMS messages so check the recipient and database configuration before running it. Keep the actual credentials out of the repo.
+
+---
+
+## 📚 References and Credit
+
+The project uses OpenCV, pytesseract, MySQL, Node.js and Twilio.
+
+---
+
+<div align="center">
+
+### Get In Touch
+
+If you'd like to chat about the work, you can reach me on [LinkedIn](https://linkedin.com/in/somil-singh).
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/somil-singh)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somils@andrew.cmu.edu)
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Skywalkerlyzv)
+[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
+[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
+
+*Thanks for stopping by!*
+
+</div>
