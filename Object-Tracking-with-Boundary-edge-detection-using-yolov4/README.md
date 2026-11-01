@@ -1,4 +1,3 @@
-<!-- Shared decorative layout inspired by my original vision README and profile README. -->
 <div align="center">
 
 <h1>📹 Object Tracking with Boundary Detection</h1>
@@ -20,7 +19,7 @@
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
 
-[Open this project](https://github.com/somilsin/Computer-Vision/tree/main/Object-Tracking-with-Boundary-edge-detection-using-yolov4) · [My GitHub](https://github.com/somilsin) · [My portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/)
+[Open this project](https://github.com/somilsin/Computer-Vision/tree/main/Object-Tracking-with-Boundary-edge-detection-using-yolov4) · [My GitHub](https://github.com/somilsin) · [Main Portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/)
 
 </div>
 
@@ -42,59 +41,9 @@ Shiwansh Bhargav · Somil Singh
 
 ---
 
-## 📖 About This Repository
+I worked on object detection and tracking with YOLOv4 for images and video. The examples include object counts, detection details and cases where a target sits near the edge of a frame.
 
----
-
-I work with object detection and tracking in images and video. I pay attention to objects near frame boundaries and inspect the counts and detection details.
-
-<br>
-
-## 🚀 Key Implementations
-
----
-
-* Image, video and webcam entry points
-* Object counts and detection information
-* Examples for inspecting targets near frame edges
-
-<br>
-
-## 🎓 Project Guide
-
----
-
-### Overview
-
-I work with You Only Look Once version 4 to detect objects in images and video. I focus on targets near frame boundaries and inspect object counts and detailed detection information.
-
-### 🔎 Other examples
-
-```bash
-python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
-python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/dog.jpg --count
-python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/dog.jpg --info
-```
-
-<br>
-
-## 🛠️ Tech Stack
-
----
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,tensorflow&theme=dark" alt="Python, TensorFlow" />
-</p>
-
-`Python` · `TensorFlow`
-
-<br>
-
-## ⚙️ Getting Started
-
----
-
-### ⚙️ Run from this project folder
+## ⚙️ Run it
 
 ```bash
 git clone https://github.com/somilsin/Computer-Vision.git
@@ -105,46 +54,16 @@ python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --
 python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video ./data/video/video.mp4 --output ./detections/results.avi
 ```
 
-I use `conda-gpu.yml` for the original GPU environment. These files describe the project's older TensorFlow environment so I check compatibility before using a newer runtime. I also check that the complete trained model is present before inference.
+Use `conda-gpu.yml` for the original GPU environment. These environment files use an older TensorFlow version and the trained weights need to be present before inference.
 
-<br>
+## 🔎 More examples
 
-## 📝 My Notes and Results
+```bash
+python detect_video.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --video 0 --output ./detections/results.avi
+python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/dog.jpg --count
+python detect.py --weights ./checkpoints/yolov4-416 --size 416 --model yolov4 --images ./data/images/dog.jpg --info
+```
 
----
+## 📚 Paper and source
 
-### 📝 My notes
-
-I keep the example images and video with the code so I can compare how the model behaves across inputs. Targets near the edge of a frame and partially hidden objects are useful cases to inspect. I keep the original license in [LICENSE](LICENSE).
-
-<br>
-
-## 📚 References and Credit
-
----
-
-I retain the source context and any existing licenses with the project. The category move changes the location of the files rather than their ownership.
-
-<br>
-
-<div align="center">
-
-## Citation
-
-If you use this work, please cite:
-
-Bhargav, S., & Singh, S. (2023). Object Detection Classification and Tracking of Everyday Common Objects. International Journal of Innovative Science and Research Technology, 8(8), 2188 to 2192. https://doi.org/10.5281/zenodo.8330641
-
-### Get In Touch
-
-I share my learning and projects here. Connect with me on [LinkedIn](https://linkedin.com/in/somil-singh) or explore [my portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/).
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/somil-singh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somils@andrew.cmu.edu)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Skywalkerlyzv)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
-
-*Thanks for stopping by!*
-
-</div>
+The paper and author details are linked above. The original [license](LICENSE) is included with the code.

@@ -1,4 +1,3 @@
-<!-- Shared decorative layout inspired by my original vision README and profile README. -->
 <div align="center">
 
 <h1>🎯 Object Detection using Single Shot Detector</h1>
@@ -20,39 +19,15 @@
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
 
-[Open this project](https://github.com/somilsin/Computer-Vision/tree/main/Object-Detection-using-SSD) · [My GitHub](https://github.com/somilsin) · [My portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/)
+[Open this project](https://github.com/somilsin/Computer-Vision/tree/main/Object-Detection-using-SSD) · [My GitHub](https://github.com/somilsin) · [Main Portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/)
 
 </div>
 
 <br>
 
-## 📖 About This Repository
+I use this notebook to explore object detection with a Single Shot Detector and COCO class labels. It keeps the example images and detection outputs alongside the model setup.
 
----
-
-I use a Single Shot Detector to explore object detection in images. I keep the notebook, example images and graph conversion helper together.
-
-<br>
-
-## 🚀 Key Implementations
-
----
-
-* Image inference notebook
-* Example images and model configuration
-* TensorFlow graph conversion helper
-
-<br>
-
-## 🎓 Project Guide
-
----
-
-### Overview
-
-I use this project to explore object detection with a Single Shot Detector and COCO class labels. The notebook displays image examples and the Python helper builds a TensorFlow text graph for the detector.
-
-### 📂 What I keep here
+## 📂 Files
 
 | File or folder | Purpose |
 | --- | --- |
@@ -62,65 +37,8 @@ I use this project to explore object detection with a Single Shot Detector and C
 | [Images](images/) | Example images for the notebook. |
 | [Models](models/) | The tracked graph configuration and model reference. |
 
-<br>
+## ⚙️ Try it
 
-## 🛠️ Tech Stack
+Open [obj_det_jupyt.ipynb](obj_det_jupyt.ipynb) from this folder so the relative image paths work. The notebook needs the frozen inference graph referenced in its model setup.
 
----
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,tensorflow&theme=dark" alt="Python, TensorFlow" />
-</p>
-
-`Python` · `TensorFlow`
-
-<br>
-
-## ⚙️ Getting Started
-
----
-
-```bash
-git clone https://github.com/somilsin/Computer-Vision.git
-cd Computer-Vision/Object-Detection-using-SSD
-```
-
-I read the project notes and dependency files before choosing its runtime.
-
-<br>
-
-## 📝 My Notes and Results
-
----
-
-### 📝 My notes
-
-I open the notebook from this project folder so its relative image paths resolve correctly. A model confidence score describes a prediction. I would need an independent labelled evaluation to describe the detector's accuracy.
-
-The detector also needs the frozen inference graph referenced by the notebook. I check that the complete model is available before running it on new images.
-
-<br>
-
-## 📚 References and Credit
-
----
-
-I retain the source context and any existing licenses with the project. The category move changes the location of the files rather than their ownership.
-
-<br>
-
-<div align="center">
-
-### Get In Touch
-
-I share my learning and projects here. Connect with me on [LinkedIn](https://linkedin.com/in/somil-singh) or explore [my portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/).
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/somil-singh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somils@andrew.cmu.edu)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Skywalkerlyzv)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
-
-*Thanks for stopping by!*
-
-</div>
+The displayed confidence scores describe individual predictions. They aren't an accuracy measurement for the detector.

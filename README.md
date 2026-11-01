@@ -1,4 +1,3 @@
-<!-- Shared decorative layout inspired by my original vision README and profile README. -->
 <div align="center">
 
 <h1>👁️ Computer Vision</h1>
@@ -21,95 +20,20 @@
 [![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
 [![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
 
-[Open this project](https://github.com/somilsin/Computer-Vision) · [My GitHub](https://github.com/somilsin) · [My portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/)
+[Open this project](https://github.com/somilsin/Computer-Vision) · [My GitHub](https://github.com/somilsin) · [Main Portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/)
 
 </div>
 
 <br>
 
-## 📖 About This Repository
+My projects for detecting, tracking and recognising objects in images and video.
 
----
+## 📂 Projects
 
-I keep my object detection, object tracking and number plate recognition projects together here. Each folder retains the code and examples that explain its pipeline.
-
-<br>
-
-## 🚀 Key Implementations
-
----
-
-* Object Detection using Single Shot Detector: Image inference notebook.
-* Object Tracking with Boundary Detection: Image, video and webcam entry points.
-* Indian Automatic Number Plate Recognition: OpenCV and optical character recognition pipeline.
-
-<br>
-
-## 🎓 Project Guide
-
----
-
-| Project | What I keep here |
+| Project | What it does |
 | :--- | :--- |
-| [Object Detection using Single Shot Detector](Object-Detection-using-SSD/README.md) | I use a Single Shot Detector to explore object detection in images. I keep the notebook, example images and graph conversion helper together. |
-| [Object Tracking with Boundary Detection](Object-Tracking-with-Boundary-edge-detection-using-yolov4/README.md) | I work with object detection and tracking in images and video. I pay attention to objects near frame boundaries and inspect the counts and detection details. |
-| [Indian Automatic Number Plate Recognition](Indian-ANPR/README.md) | I connect number plate text extraction to a vehicle registration database and text message alerts. The source combines computer vision with a browser interface and database setup. |
+| [Object Detection using SSD](Object-Detection-using-SSD/README.md) | Image detection examples with a Single Shot Detector. |
+| [Object Detection and Tracking with YOLOv4](Object-Tracking-with-Boundary-edge-detection-using-yolov4/README.md) | Image, video and webcam detection, object counts and examples near frame boundaries. |
+| [Indian ANPR](Indian-ANPR/README.md) | Number plate text extraction, registration checks and SMS alerts. |
 
-<br>
-
-## 🛠️ Tech Stack
-
----
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,tensorflow,nodejs&theme=dark" alt="Python, TensorFlow, Node.js" />
-</p>
-
-`Python` · `TensorFlow` · `Node.js`
-
-<br>
-
-## ⚙️ Getting Started
-
----
-
-```bash
-git clone https://github.com/somilsin/Computer-Vision.git
-cd Computer-Vision
-```
-
-I open the README in the project folder I want to use. Each project has its own dependencies and entry points.
-
-<br>
-
-## 📝 My Notes and Results
-
----
-
-I check the trained weights and environment before inference. These are existing project sources and I do not describe all three pipelines as newly executed. The number plate project reads credentials from environment variables.
-
-<br>
-
-## 📚 References and Credit
-
----
-
-I retain course credit and original licenses in the individual project folders. Reorganizing the source does not change its authorship or license.
-
-<br>
-
-<div align="center">
-
-### Get In Touch
-
-I share my learning and projects here. Connect with me on [LinkedIn](https://linkedin.com/in/somil-singh) or explore [my portfolio](https://somilsin.github.io/Artificial-Intelligence/portfolio/).
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/somil-singh)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:somils@andrew.cmu.edu)
-[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/Skywalkerlyzv)
-[![Medium](https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@thesomilsinghofficial)
-[![Substack](https://img.shields.io/badge/Substack-FF6719?style=for-the-badge&logo=substack&logoColor=white)](https://thesomilsingh.substack.com/)
-
-*Thanks for stopping by!*
-
-</div>
+Open a project's README for its setup and examples.
